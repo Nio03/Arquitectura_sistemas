@@ -13,9 +13,11 @@ def save_tasks(tasks):
 
 def log_event(message):
     try:
-        requests.post(LOGGING_API, json={"message": message})
+        response = requests.post(LOGGING_API, json={"message": message})
+        response.raise_for_status()
     except:
         pass
+
 
 @app.route("/")
 def index():
