@@ -13,3 +13,11 @@ Las actividades están enfocadas en desarrollar competencias relacionadas con el
 - Implementar y evaluar arquitecturas como monolitos, microservicios y contenedores.
 - Aplicar patrones de diseño y patrones arquitectónicos.
 - Promover prácticas de diseño escalable, confiable y tolerante a fallas.
+
+## 📌 Créditos
+
+Curso impartido por **Eliana Vivas**  
+Facultad de Ingeniería y Ciencias – Universidad Adolfo Ibáñez  
+Ayudante: **M. Heilenkotter**
+
+---
