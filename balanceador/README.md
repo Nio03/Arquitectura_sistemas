@@ -32,6 +32,8 @@ Asegúrate de tener Python 3. Luego instala las bibliotecas necesarias:
 
 ```bash
 pip install flask requests
+```
+
 ---
 
 ### 2. Archivos del proyecto
@@ -117,4 +119,4 @@ Es un script para sistemas Windows que permite iniciar automáticamente:
 
 ## 📚 Créditos
 
-Este sistema fue desarrollado como ejercicio práctico para la asignatura **TICS317 - Arquitectura de Sistemas**
+Este sistema fue desarrollado como ejercicio práctico para la asignatura **TICS317 - Arquitectura de Sistemas**.
