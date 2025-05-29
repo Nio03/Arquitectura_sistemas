@@ -116,7 +116,3 @@ Es un script para sistemas Windows que permite iniciar automáticamente:
 - Reinicia el servidor detenido y verifica cómo vuelve a atender peticiones automáticamente.
 
 ---
-
-## 📚 Créditos
-
-Este sistema fue desarrollado como ejercicio práctico para la asignatura **TICS317 - Arquitectura de Sistemas**.
