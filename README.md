@@ -1,4 +1,4 @@
-# 🧱 Actividades de Clase: Arquitectura de Sistemas
+# 🧱 Actividades en Clase: Arquitectura de Sistemas
 
 Este repositorio contiene las actividades prácticas realizadas en el curso **TICS 317 - Arquitectura de Sistemas**, parte de la carrera de Ingeniería Civil Informática de la Universidad Adolfo Ibáñez.
 
