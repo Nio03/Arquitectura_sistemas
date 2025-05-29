@@ -18,6 +18,6 @@ Las actividades están enfocadas en desarrollar competencias relacionadas con el
 
 Curso impartido por **Eliana Vivas**  
 Facultad de Ingeniería y Ciencias – Universidad Adolfo Ibáñez  
-Ayudante: **M. Heilenkotter**
+Creador: ***Nicolas Goldstein***
 
 ---
