@@ -1,0 +1,87 @@
+2025-05-29 08:53:12,039 - INFO - Verificando servidores al inicio...
+2025-05-29 08:53:16,127 - INFO - Balanceador de carga iniciado en http://localhost:8080
+2025-05-29 08:53:16,127 - INFO - Puedes verificar el estado de los servidores en http://localhost:8080/status
+2025-05-29 08:53:16,160 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.53.144.19:8080
+2025-05-29 08:53:16,160 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-29 08:53:43,614 - INFO - 127.0.0.1 - - [29/May/2025 08:53:43] "GET / HTTP/1.1" 200 -
+2025-05-29 08:53:45,756 - INFO - 127.0.0.1 - - [29/May/2025 08:53:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-29 08:53:50,840 - INFO - 127.0.0.1 - - [29/May/2025 08:53:50] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:53:52,606 - INFO - 127.0.0.1 - - [29/May/2025 08:53:52] "[32mPOST /tasks/0/complete HTTP/1.1[0m" 302 -
+2025-05-29 08:53:54,962 - INFO - 127.0.0.1 - - [29/May/2025 08:53:54] "GET / HTTP/1.1" 200 -
+2025-05-29 08:53:55,711 - INFO - 127.0.0.1 - - [29/May/2025 08:53:55] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:54:03,141 - INFO - 127.0.0.1 - - [29/May/2025 08:54:03] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:54:07,039 - INFO - 127.0.0.1 - - [29/May/2025 08:54:07] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:54:12,132 - INFO - 127.0.0.1 - - [29/May/2025 08:54:12] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:54:13,820 - INFO - 127.0.0.1 - - [29/May/2025 08:54:13] "[32mPOST /tasks/1/delete HTTP/1.1[0m" 302 -
+2025-05-29 08:54:16,206 - INFO - 127.0.0.1 - - [29/May/2025 08:54:16] "GET / HTTP/1.1" 200 -
+2025-05-29 08:54:17,227 - INFO - 127.0.0.1 - - [29/May/2025 08:54:17] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:54:23,608 - INFO - 127.0.0.1 - - [29/May/2025 08:54:23] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:58:22,916 - INFO - 127.0.0.1 - - [29/May/2025 08:58:22] "GET / HTTP/1.1" 200 -
+2025-05-29 08:58:30,082 - INFO - 127.0.0.1 - - [29/May/2025 08:58:30] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:58:35,071 - INFO - 127.0.0.1 - - [29/May/2025 08:58:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:58:40,388 - INFO - 127.0.0.1 - - [29/May/2025 08:58:40] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:58:45,097 - INFO - 127.0.0.1 - - [29/May/2025 08:58:45] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:58:50,416 - INFO - 127.0.0.1 - - [29/May/2025 08:58:50] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:58:55,102 - INFO - 127.0.0.1 - - [29/May/2025 08:58:55] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:59:00,889 - INFO - 127.0.0.1 - - [29/May/2025 08:59:00] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:59:05,904 - INFO - 127.0.0.1 - - [29/May/2025 08:59:05] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:59:11,995 - INFO - Verificando servidores al inicio...
+2025-05-29 08:59:16,021 - WARNING - Error en health check para http://localhost:5001: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /health (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001CB30FAB650>, 'Connection to localhost timed out. (connect timeout=2)'))
+2025-05-29 08:59:18,052 - INFO - Balanceador de carga iniciado en http://localhost:8080
+2025-05-29 08:59:18,054 - INFO - Puedes verificar el estado de los servidores en http://localhost:8080/status
+2025-05-29 08:59:18,080 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.53.144.19:8080
+2025-05-29 08:59:18,080 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-29 08:59:20,409 - INFO - 127.0.0.1 - - [29/May/2025 08:59:20] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:59:22,059 - WARNING - Error en health check para http://localhost:5001: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /health (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001CB30FAAEA0>, 'Connection to localhost timed out. (connect timeout=2)'))
+2025-05-29 08:59:25,108 - INFO - 127.0.0.1 - - [29/May/2025 08:59:25] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:59:31,122 - INFO - 127.0.0.1 - - [29/May/2025 08:59:31] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:59:35,576 - INFO - 127.0.0.1 - - [29/May/2025 08:59:35] "GET / HTTP/1.1" 200 -
+2025-05-29 08:59:35,854 - INFO - 127.0.0.1 - - [29/May/2025 08:59:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:59:41,118 - INFO - 127.0.0.1 - - [29/May/2025 08:59:41] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:59:43,174 - INFO - 127.0.0.1 - - [29/May/2025 08:59:43] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:59:45,706 - INFO - 127.0.0.1 - - [29/May/2025 08:59:45] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:59:47,842 - INFO - 127.0.0.1 - - [29/May/2025 08:59:47] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:59:50,401 - INFO - 127.0.0.1 - - [29/May/2025 08:59:50] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:59:52,799 - INFO - 127.0.0.1 - - [29/May/2025 08:59:52] "GET /info HTTP/1.1" 200 -
+2025-05-29 08:59:56,138 - INFO - 127.0.0.1 - - [29/May/2025 08:59:56] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:00:00,072 - INFO - 127.0.0.1 - - [29/May/2025 09:00:00] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:00:05,406 - INFO - 127.0.0.1 - - [29/May/2025 09:00:05] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:00:10,830 - INFO - 127.0.0.1 - - [29/May/2025 09:00:10] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:00:15,396 - INFO - 127.0.0.1 - - [29/May/2025 09:00:15] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:00:20,080 - INFO - 127.0.0.1 - - [29/May/2025 09:00:20] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:00:25,398 - INFO - 127.0.0.1 - - [29/May/2025 09:00:25] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:00:30,088 - INFO - 127.0.0.1 - - [29/May/2025 09:00:30] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:00:35,411 - INFO - 127.0.0.1 - - [29/May/2025 09:00:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:00:40,089 - INFO - 127.0.0.1 - - [29/May/2025 09:00:40] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:00:45,399 - INFO - 127.0.0.1 - - [29/May/2025 09:00:45] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:00:50,091 - INFO - 127.0.0.1 - - [29/May/2025 09:00:50] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:00:55,367 - INFO - 127.0.0.1 - - [29/May/2025 09:00:55] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:01:00,819 - INFO - 127.0.0.1 - - [29/May/2025 09:01:00] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:01:05,411 - INFO - 127.0.0.1 - - [29/May/2025 09:01:05] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:01:10,071 - INFO - 127.0.0.1 - - [29/May/2025 09:01:10] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:01:16,170 - INFO - 127.0.0.1 - - [29/May/2025 09:01:16] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:01:20,078 - INFO - 127.0.0.1 - - [29/May/2025 09:01:20] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:01:25,374 - INFO - 127.0.0.1 - - [29/May/2025 09:01:25] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:01:30,090 - INFO - 127.0.0.1 - - [29/May/2025 09:01:30] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:01:31,572 - INFO - 127.0.0.1 - - [29/May/2025 09:01:31] "[32mPOST /tasks/add HTTP/1.1[0m" 302 -
+2025-05-29 09:01:33,959 - INFO - 127.0.0.1 - - [29/May/2025 09:01:33] "GET / HTTP/1.1" 200 -
+2025-05-29 09:01:35,093 - INFO - 127.0.0.1 - - [29/May/2025 09:01:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:01:41,265 - INFO - 127.0.0.1 - - [29/May/2025 09:01:41] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:01:43,272 - INFO - 127.0.0.1 - - [29/May/2025 09:01:43] "[32mPOST /tasks/add HTTP/1.1[0m" 302 -
+2025-05-29 09:01:45,396 - INFO - 127.0.0.1 - - [29/May/2025 09:01:45] "GET / HTTP/1.1" 200 -
+2025-05-29 09:01:46,372 - INFO - 127.0.0.1 - - [29/May/2025 09:01:46] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:01:52,838 - INFO - 127.0.0.1 - - [29/May/2025 09:01:52] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:01:57,527 - INFO - 127.0.0.1 - - [29/May/2025 09:01:57] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:02:02,787 - INFO - 127.0.0.1 - - [29/May/2025 09:02:02] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:02:07,834 - INFO - 127.0.0.1 - - [29/May/2025 09:02:07] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:02:13,128 - INFO - 127.0.0.1 - - [29/May/2025 09:02:13] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:02:16,502 - INFO - 127.0.0.1 - - [29/May/2025 09:02:16] "GET /status HTTP/1.1" 200 -
+2025-05-29 09:02:17,490 - INFO - 127.0.0.1 - - [29/May/2025 09:02:17] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:02:21,919 - INFO - 127.0.0.1 - - [29/May/2025 09:02:21] "GET /status HTTP/1.1" 200 -
+2025-05-29 09:02:26,972 - INFO - 127.0.0.1 - - [29/May/2025 09:02:26] "GET /status HTTP/1.1" 200 -

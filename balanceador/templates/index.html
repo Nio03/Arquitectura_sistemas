@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Gestión de Tareas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        body.port5001 {
+            background-color: #ffffff;
+        }
+
+        body.port5002 {
+            background-color: #e0f7fa;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        main {
+            max-width: 600px;
+            margin: 2rem auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        input[name="title"] {
+            flex: 1;
+            padding: 0.5rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 0.75rem;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        li:last-child {
+            border-bottom: none;
+        }
+
+        a {
+            margin-left: 0.5rem;
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin: 2rem 0;
+            font-size: 0.9rem;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body class="port{{ port }}">
+    <header>
+        <h1>Gestión de Tareas</h1>
+    </header>
+
+    <main>
+        <form method="post" action="/tasks/add">
+            <input name="title" placeholder="Nueva tarea" required>
+            <button type="submit">Agregar</button>
+        </form>
+
+        <ul>
+            {% for task in tasks %}
+            <li>
+                <span>{{ task.title }}</span>
+                <span>
+                    {% if not task.completed %}
+                    <a href="/tasks/{{ loop.index0 }}/complete">Completar</a>
+                    {% endif %}
+                    <a href="/tasks/{{ loop.index0 }}/delete">Eliminar</a>
+                </span>
+            </li>
+            {% endfor %}
+        </ul>
+    </main>
+
+    <footer>Servidor atendiendo esta solicitud: Puerto {{ port }}</footer>
+</body>
+
+</html>
