@@ -15,7 +15,7 @@ Este proyecto es un sistema distribuido hecho en Python con Flask, que permite g
 
 ## 🧭 ¿Cómo funciona el balanceador?
 
-- Escucha en el puerto **8080**.
+- Entrar al puerto `localhost:8080`
 - Mantiene una lista de servidores (por defecto `localhost:5001` y `localhost:5002`).
 - Antes de reenviar una solicitud, verifica qué servidores están activos.
 - Redirige la solicitud de forma **aleatoria** a uno de los servidores activos.
